@@ -14,4 +14,25 @@
 # any notes to the instructor and/or TA goes here
 
 # ...and now let's program with Python
-                                          q
+speed=90    #This is the speed the carr is going
+#time=input('How long did you travel')
+time1= 6 #hours
+distance=speed*time1
+print("The car will go " + str(distance) + " kilometers in 6 hours.")
+time2= 10 #hours
+distance=speed*time2
+print("The car will go " + str(distance) + " kilometers in 10 hours")
+time3=15 #hours
+distance=speed*time3 #distance formula
+print("The car will go " + str(distance) + " kilometers in 15 hours")
+time4=2.25
+distance=speed*time4
+print("The car will go " + str(distance) + " kilometers in 2.25 hours")
+
+
+
+
+
+
+
+
