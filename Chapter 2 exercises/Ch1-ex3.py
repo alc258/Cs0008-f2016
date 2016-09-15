@@ -27,7 +27,7 @@ distance=speed*time3 #distance formula
 print("The car will go " + str(distance) + " kilometers in 15 hours")
 time4=2.25
 distance=speed*time4
-print("The car will go " + str(distance) + " kilometers in 2.25 hours")
+print("The car will go " + str(distance) + " kilometers in 2.25 hours") #answer
 
 
 
