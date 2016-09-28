@@ -1,0 +1,8 @@
+#Ask the user if they want to use USC or Metric
+#Ask the user how much gas they used
+#Ask the user how far they drove
+#If the user selects USC convert gas and distance into metric
+#Find the fuel consumption in both USC and Metric and format the answer to be a float with three
+decimal places and have a width of 6
+# convert the fuel consumption table to fit USC and then input the conditions to rate the fuel consumption
+# Former the output and print the results for the user
