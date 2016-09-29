@@ -12,4 +12,6 @@ If user answers no
     -convert liters to gallons
     -calculate mpg and liters per 100 km
 do an if clause for the fuel consumption chart and assign efficiency to the corresponding string/rating
-print the results formatting it to having three columns, a width of 6, and 3 decimal palces
+print the results of the conversions and fuel consumption calculations
+formatting it to having three columns, a width of 6, and 3 decimal place
+and then print the efficiency
