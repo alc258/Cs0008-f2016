@@ -11,28 +11,42 @@
 
 # ...and now let's program with Python
 
-unit=input("Are you using USC? ")                             ##ask user if they are using USC
+unit=input("Are you using USC? Answer 'no' if using Metric. ") #ask user if they are using USC
 if unit=="yes":                                               #if user is using usc
     distance=input("How many miles have you driven? ")        #ask user to input the distance driven
     gas=input("How many gallons have you used? ")             #ask user to input the amount of gas used
-    kilometers=distance*1.60924                               #convert miles to cm
-    liter=3.78541                                             #convert gallons to liters
-    cm=(liter/100)*kilometers                                 #find cm to find efficiency later
-if unit=="no":
+    miles=distance                                            #assaiging distance input to miles variable
+    gallons=gas                                               #assaigning gas input to gallons variable
+    kilometers=distance*1.60924                               #convert miles to km
+    liters=3.78541*gallons                                    #convert gallons to liters
+    mpg=(miles/gallons)                                       #calculate consumption in USC
+    lpkm=100*(liters/kilometers)                              #calculate fuel consumption in metric
+if unit=="no":                                                #if user answers that they are using metric
     distance=input("How many kilometers have you driven? ")   #ask user to input the distance driven in metric
     gas=input("How many liters have you used? ")              #ask user to input gas used in metric
+    kilometers=distance                                       #assaign distance input to kilometers
+    liters=gas                                                #assaign gas input to liters
     miles=distance*.264172                                    #convert km to miles
     gallons=gas*.621371                                       #convert liters to gallons
-    cm=(gas/100)*distance                                     #calculate cm for efficiency
-if cm>20:                                                     #assagin cm to fuel consumption rating
-    efficiency="extremely poor"
-elif 15<cm>=20:
+    mpg=(miles/gallons)                                       #calculate consumption in USC
+    lpkm=100*(liters/kilometers)                              #calculate consumption in metric
+if kilometers>20:                                             #Set conditions/parameters for fuel efficiency
+    efficiency="extremely poor"                               #assaigns efficiency to a string for the print function
+elif 15<kilometers>=20:
     efficiency="poor"
-elif 10<cm>=15:
+elif 10<kilometers>=15:
     efficiency="average"
-elif 8<cm>=10:
+elif 8<kilometers>=10:
     efficiency="good"
-elif cm<=8:
+elif kilometers<=8:
     efficiency="excellent"
+                                                            #prints the results given the users input and formats them
+                                                            #so they are in 3 columns and each number has a width of 6
+                                                            #and 3 decimal places
+print("                             ", "USC     ",                  "Metric")
+print("Distance______________:",format(miles, "10.3f"),format(kilometers, "10.3f"))
+print("Gas___________________:",format(gallons, "10.3f"),format(liters, "10.3f"))
+print("consumption___________:",format(mpg, "10.3f"), format(lpkm, "10.3f"))
+print("Gas consumption rating: "+ str(efficiency)+" ")
 
 
