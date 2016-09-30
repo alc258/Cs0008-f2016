@@ -13,8 +13,8 @@
 
 unit=input("Are you using USC? Answer 'no' if using Metric. ") #ask user if they are using USC
 if unit=="yes":                                               #if user is using usc
-    distance=input("How many miles have you driven? ")        #ask user to input the distance driven
-    gas=input("How many gallons have you used? ")             #ask user to input the amount of gas used
+    distance=float(input("How many miles have you driven? "))        #ask user to input the distance driven
+    gas=float(input("How many gallons have you used? "))             #ask user to input the amount of gas used
     miles=distance                                            #assaiging distance input to miles variable
     gallons=gas                                               #assaigning gas input to gallons variable
     kilometers=distance*1.60924                               #convert miles to km
@@ -22,8 +22,8 @@ if unit=="yes":                                               #if user is using 
     mpg=(miles/gallons)                                       #calculate consumption in USC
     lpkm=100*(liters/kilometers)                              #calculate fuel consumption in metric
 if unit=="no":                                                #if user answers that they are using metric
-    distance=input("How many kilometers have you driven? ")   #ask user to input the distance driven in metric
-    gas=input("How many liters have you used? ")              #ask user to input gas used in metric
+    distance=float(input("How many kilometers have you driven? "))   #ask user to input the distance driven in metric
+    gas=float(input("How many liters have you used? "))             #ask user to input gas used in metric
     kilometers=distance                                       #assaign distance input to kilometers
     liters=gas                                                #assaign gas input to liters
     miles=distance*.264172                                    #convert km to miles
