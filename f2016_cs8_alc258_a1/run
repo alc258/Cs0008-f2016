@@ -1,0 +1,28 @@
+run 1-yes
+
+/usr/local/bin/python3.5 /Users/alyssachonko/Documents/cs0008/Cs0008-f2016/f2016_cs8_alc258_a1/f2016_cs8_alc258_a1.py
+Are you using USC? Answer 'no' if using Metric. yes
+How many miles have you driven? 12
+How many gallons have you used? 2
+                              USC      Metric
+Distance______________:     12.000     19.311
+Gas___________________:      2.000      7.571
+consumption___________:      6.000     39.205
+Gas consumption rating: average
+
+Process finished with exit code 0
+
+run 1- no
+
+
+/usr/local/bin/python3.5 /Users/alyssachonko/Documents/cs0008/Cs0008-f2016/f2016_cs8_alc258_a1/f2016_cs8_alc258_a1.py
+Are you using USC? Answer 'no' if using Metric. no
+How many kilometers have you driven? 12
+How many liters have you used? 2
+                              USC      Metric
+Distance______________:      3.170     12.000
+Gas___________________:      1.243      2.000
+consumption___________:      2.551     16.667
+Gas consumption rating: good
+
+Process finished with exit code 0
