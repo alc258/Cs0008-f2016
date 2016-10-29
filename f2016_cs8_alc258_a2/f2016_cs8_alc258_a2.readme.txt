@@ -1,0 +1,25 @@
+
+def main():
+file=input("First file")
+while file and file!= "quit" and file != "q"
+    FH=open(fiel,"r")
+    PD,PTN= file(fh)
+    printkv('----', ptn)            ---create function with print value
+    printkv("----", pf)
+    fh.close
+    ttd+=pd
+    ttn+=ptn
+    file=input("name of bnext file")
+
+put all in process file function
+pd=0
+ptn=o
+fo=open
+for line in fo
+    line =line.rstrip("\n")
+    temp=line.split(",")
+    dist=float(temp[1])
+    pd+=dist
+    ptn+=1
+printkv("partial #", PTN) ----create function for summary of everything to print
+printkv("partial ", pd)
