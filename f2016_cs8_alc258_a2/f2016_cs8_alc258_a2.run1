@@ -1,0 +1,11 @@
+/System/Library/Frameworks/Python.framework/Versions/2.6/bin/python2.6 "/Users/alyssachonko/Documents/cs0008/Cs0008-f2016/Chapter 5 exercises/zdcaX.py"
+File to be read: f2016_cs8_a2.csv
+Traceback (most recent call last):
+  File "/Users/alyssachonko/Documents/cs0008/Cs0008-f2016/Chapter 5 exercises/zdcaX.py", line 104, in <module>
+    main()
+  File "/Users/alyssachonko/Documents/cs0008/Cs0008-f2016/Chapter 5 exercises/zdcaX.py", line 68, in main
+    fileName = input('File to be read: ')
+  File "<string>", line 1, in <module>
+NameError: name 'f2016_cs8_a2' is not defined
+
+Process finished with exit code 1

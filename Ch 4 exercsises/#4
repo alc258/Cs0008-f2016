@@ -1,0 +1,18 @@
+#ask user to input speed
+speed=input("What is the speed of the vehicle in mph? ")
+#ask user to input hours traveled
+hours=input("How many hours has it traveled? ")
+#set first time traveled at 1
+start=1
+#set last time traveled at hours+1
+last=hours+1
+#set the charts to calculate every one hour
+increment=1
+#print a chart
+print("Hour\tDistance Traveled")
+print("-----------------------")
+#set a loop
+for hours in range(start,last,increment):
+    # distance formula
+    distance = speed * hours
+    print (str(hours) + "\t " + str(distance))
