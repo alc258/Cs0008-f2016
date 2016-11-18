@@ -1,0 +1,12 @@
+ask user to input file name and assaign that to master file
+open the file to read
+create a function that creates dictionary, opens files in master files and gets rid of newline and commas, and
+    counts the number of lines in files, then close file
+create loops to find the min and max value and iterate through dictionary to find names associated with those values
+create loop to get rid of newline in master file and counts number of files in it
+create a loop that iterates thorough dictionary to find key values that appear more than once and
+    sum how many times they appear
+close master file
+sum total distance values
+print and format all the outputs
+create output file and write prints to output file
