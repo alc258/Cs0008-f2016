@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45fdc8ed-76c7-4247-85d6-0506c5f68a05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch 4 exercsises/#1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch 4 exercsises/#2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch 4 exercsises/#3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch 4 exercsises/#4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter 5 exercises/#1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter 5 exercises/#3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter 5 exercises/#4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter 5 exercises/7.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/f2016_cs8_alc258_a2/f2016_cs8_alc258_a2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/f2016_cs8_alc258_a2/f2016_cs8_alc258_a2.readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/f2016_cs8_alc258_a3/f2016_cs8_a3.data.1.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/f2016_cs8_alc258_a3/f2016_cs8_a3.data.2.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/f2016_cs8_alc258_a3/f2016_cs8_a3.data.3.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/f2016_cs8_alc258_a3/f2016_cs8_a3.data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/f2016_cs8_alc258_a3/f2016_cs8_alc258_a3.run1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/f2016_cs8_alc258_a3.py" afterPath="$PROJECT_DIR$/f2016_cs8_alc258_a3.py" />
     </list>
     <ignored path="Cs0008-f2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ch2 ex7.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter 2 exercises/ch2 ex7.py">
+      <file leaf-file-name="f2016_cs8_alc258_a3.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/f2016_cs8_alc258_a3/f2016_cs8_alc258_a3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -52,11 +49,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="f2016_cs8_alc258_a2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="f2016_cs8_alc258_a2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/f2016_cs8_alc258_a2/f2016_cs8_alc258_a2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state relative-caret-position="324">
+              <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="f2016_cs8_a3.data.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/f2016_cs8_a3.data.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="f2016_cs8_alc258_a3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/f2016_cs8_alc258_a3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="77" column="38" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="f2016_cs8_alc258_a3.run1" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/f2016_cs8_alc258_a3/f2016_cs8_alc258_a3.run1">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="f2016_cs8_a3.data.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/f2016_cs8_alc258_a3/f2016_cs8_a3.data.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,41 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="f2016_cs8_alc258_a1.readme" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/f2016_cs8_alc258_a1/f2016_cs8_alc258_a1.readme">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="f2016_cs8_alc258_a1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/f2016_cs8_alc258_a1/f2016_cs8_alc258_a1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="7.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter 5 exercises/7.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="#4" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 4 exercsises/#4">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -169,6 +186,9 @@
         <option value="$PROJECT_DIR$/f2016_cs8_alc258_a2/f2016_cs8_alc258_a2.readme.txt" />
         <option value="$PROJECT_DIR$/f2016_cs8_alc258_a2/f2106_cs8_alc258_a2.py" />
         <option value="$PROJECT_DIR$/f2016_cs8_alc258_a2/f2016_cs8_alc258_a2.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/f2016_cs8_alc258_a3.py" />
+        <option value="$PROJECT_DIR$/f2016_cs8_alc258_a3/f2016_cs8_alc258_a3.run1" />
       </list>
     </option>
   </component>
@@ -203,7 +223,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -219,6 +238,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Cs0008-f2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cs0008-f2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cs0008-f2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f2016_cs8_alc258_a3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,6 +341,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,24 +357,7 @@
       <recent name="$PROJECT_DIR$/Ch1-ex3/1example1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.f2106_cs8_alc258_a2">
-    <configuration default="false" name="#1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter 5 exercises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Cs0008-f2016" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 5 exercises/#1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.f2016_cs8_alc258_a3">
     <configuration default="false" name="#3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -405,6 +422,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Cs0008-f2016" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/f2016_cs8_alc258_a2/f2016_cs8_alc258_a2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="f2016_cs8_alc258_a3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Cs0008-f2016" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/f2016_cs8_alc258_a3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -544,19 +578,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.#1 (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.#3 (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.#4 (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.7" />
-      <item index="4" class="java.lang.String" itemvalue="Python.f2106_cs8_alc258_a2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.#3 (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.#4 (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.7" />
+      <item index="3" class="java.lang.String" itemvalue="Python.f2106_cs8_alc258_a2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.f2016_cs8_alc258_a3" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.f2106_cs8_alc258_a2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.7" />
-        <item index="2" class="java.lang.String" itemvalue="Python.#4 (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.#3 (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.#1 (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.f2016_cs8_alc258_a3" />
+        <item index="1" class="java.lang.String" itemvalue="Python.f2106_cs8_alc258_a2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.7" />
+        <item index="3" class="java.lang.String" itemvalue="Python.#4 (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.#3 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -658,7 +692,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475253243118</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Executed exercise 7  from Chapter 2">
+      <created>1479746232236</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1479746232236</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -673,12 +714,12 @@
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15390626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15329626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.259375" sideWeight="0.55" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25931928" sideWeight="0.55599684" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.259375" sideWeight="0.45" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25931928" sideWeight="0.44400316" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -724,35 +765,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter 2 exercises/Ch2-ex3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter 2 exercises/ch2 ex7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter 2 exercises/Ch2-ex3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" selection-start-line="0" selection-start-column="1" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch1-ex3/example 2.py" />
-    <entry file="file://$PROJECT_DIR$/Chapter 3 exercises/ch3 ex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter 2 exercises/ex1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -847,13 +859,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter 3 exercises/ex4" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter 3 exercises/ch3 ex.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -935,7 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -943,7 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,17 +966,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/f2016_cs8_a2.data.2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/f2016_cs8_a2.data.2.csv" />
     <entry file="file://$PROJECT_DIR$/f2016_cs8_alc258_a1/f2016_cs8_alc258_a1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="255">
           <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding />
         </state>
@@ -1003,14 +999,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/f2016_cs8_a2.data.1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/f2016_cs8_a2.data.1.csv" />
     <entry file="file://$PROJECT_DIR$/f2016_cs8_alc258_a2/f2016_cs8_alc258_a2.readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1021,8 +1010,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/f2016_cs8_alc258_a2/f2016_cs8_alc258_a2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f2016_cs8_a3.data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f2016_cs8_alc258_a3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="77" column="38" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f2016_cs8_alc258_a3/f2016_cs8_alc258_a3.run1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f2016_cs8_alc258_a3/f2016_cs8_a3.data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f2016_cs8_alc258_a3/f2016_cs8_alc258_a3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

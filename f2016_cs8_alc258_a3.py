@@ -9,7 +9,7 @@
 # Assignment number 3
 #
 # Notes:
-#outfile=open(output.txt,'w')
+#outfile=str(open(output.txt,'w'))
 #make dictionary a global dictionary
 global_dict={}
 #ask user to enter filename
@@ -43,7 +43,7 @@ def fh(file,dictionary):
     return[dictionary,count]
 #create variables for max distance and their name
 max_name=' '
-max_dist=' '
+max_dist=0
 #create loop to iterate through dictionary to find highest value
 for key in global_dict:
     l_values=global_dict[key]
@@ -75,15 +75,14 @@ master_file.close()
 #print all outputs in format
 print(' ')
 print('Number of input files read: ',total_files)
-print('Total number of lines read: ',)
-print(' ')
+print('Total number of lines read: ', )
 print('Total distance run: ',)
 print(' ')
-print('Max distance run: ',)
-print('  by participant:',)
+print('Max distance run: ', min_dist)
+print('  by participant:', min_name)
 print('')
-print('Max distance run: ',)
-print('  by participant:',)
+print('Max distance run: ', max_dist)
+print('  by participant:',max_name)
 print('')
 print('Total number of participants:',)
 print('Number of participants: ',)
