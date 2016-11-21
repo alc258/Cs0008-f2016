@@ -54,11 +54,20 @@ def processFile(fh):                            # creates process file function 
             if (distance, float):               # make sure distance is a float
                 total_distance += distance
 
+<<<<<<< HEAD
             line_count += 1                     # increment line count
     fh.close                                    #close file
 
     return (line_count, total_distance)         # return the two values, line count and total distance
 
+=======
+            line_count += 1                      # increment line count
+    fh.close                                     #close file
+
+    return (line_count, total_distance)          # return the two values, line count and total distance
+
+# MN: place comments at the beginning 
+>>>>>>> origin/master
 def printKV(key, value, klen = 0):              # printKV: prints and formats key values
     if value == None:                           # print simple strings without value
         print(key)
@@ -75,6 +84,34 @@ def summary(totalLineCount, total_distance):                     #function for p
     printKV('Total # of lines', totalLineCount)
     printKV('Total distance run', total_distance)
 
+
+# MN: place comments at the beginning
+def main():                                                      # Creates the main function
+    x=1
+    while x != 0:
+        file = input("Enter the name of the file: ")
+        if file== "quit":
+            x=0
+        if file=="q":
+            x=0
+        if file==" ":
+            x=0
+        else:
+            fh=open(file, 'r')
+            # MN: this following statement assumes that you have defined a function named "file"
+            #total_distance,line_count=file(fh)
+            # MN: if call processFile this way, you are not passing in the file handle/object in
+            #     and you do not collect the output from it
+            #processFile()
+            # MN: here how you should have called processFile
+            total_distance, line_count = processFile(fh)
+            # MN: if you call printKV without arguments, it cannot print anything
+            #printKV()
+            # MN: here how you should have been calling printKV
+            printKX('File number of lines',line_count)
+            printKV('File distance run',total_distance)
+            # MN: if you call summary here you will run it after processing every file
+            #summary()
 
 
 main()      # call the main function
