@@ -1,0 +1,5 @@
+/usr/local/bin/python3.5 /Users/alyssachonko/Documents/cs0008/Cs0008-f2016/f2016_cs8_<alc258>_fp/f2016_cs8_<alc258>_fp.py
+Enter name of master file : inncorect_file
+Error: Can't read master file or invalid name
+
+Process finished with exit code 1
