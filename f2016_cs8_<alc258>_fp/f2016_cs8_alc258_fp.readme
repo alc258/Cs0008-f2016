@@ -1,0 +1,20 @@
+Used program from assignment 3, and edited it by adding methods
+    Create a class at beginning of program named participant
+        define initializer method
+            set name and distance variables
+                create if statement to see if runs accumulator should increase by 1
+    Create add Distance mehtod
+        Add distance to and increase runs by 1
+    Create get Distance method
+        Return distance
+    Create Get names method
+        Return names
+    Create Get runs method
+        Return runs
+    create string method
+        return name, distance run, and runs as strings and formatted correctly
+    Create add Distances method
+        loop through list of new distances an add them to distances if they are greater than 0
+            if there is another distance to add, also increase runs accumulator
+Change code from assignment 3 so that it uses the methods and not global variables/dictionaries
+

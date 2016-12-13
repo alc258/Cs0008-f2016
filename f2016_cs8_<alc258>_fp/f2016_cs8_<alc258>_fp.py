@@ -87,19 +87,17 @@ except:
     print("Error: Can't read master file or invalid name")
     exit(1)
 # read data files
-#assaign list of
+#combine lists of records in data files and getData list by using loops and appending it to raw_data
 raw_data = [];
 for file in data_files:
-    for item2 in getData(files):
+    for item2 in getData(file):
         raw_data.append(item2)
 
-#
-# given that we do not keep track of the file the data comes from
-# we need to flatten the structure
+#create variable for number of files read
 number_of_files=len(data_files)
-
+#create variable for total lines read
 total_lines=len(raw_data)
-
+#
 total_distance_run=sum([item['distance'] for item in raw_data])
 # the previous statement can be complicated and hard to understand
 # it is equivalent to do the following:
