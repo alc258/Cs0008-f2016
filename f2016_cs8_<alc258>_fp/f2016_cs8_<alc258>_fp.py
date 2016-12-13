@@ -52,6 +52,11 @@ class participant:
             if d>0:
                 self.distance+=d
                 self.runs+=1
+    #create method to joining together name,runs , and distances and convert them to string to make
+    #it easier to write to output file later and return the result
+    def tocsv(self):
+        return ','.join([self.name, str(self.runs), str(self.distance)])
+
 
 #create function to get information from file
 def getData(file):
@@ -126,11 +131,11 @@ for item in raw_data:
     participants[item['name']].addDistance(item['distance'])
 # end for
 
-# minum distance run with name
+# minmum distance run with name
 minDistance = { 'name' : None, 'distance': None }
 # maximum distance run with name
 maxDistance = { 'name' : None, 'distance': None }
-# appearences dictionary
+# appearances dictionary
 appearances = {}
 #
 # computes the total distance run for each participant iterating on all the participants
@@ -201,10 +206,9 @@ fh = open(outputFile,'w')
 # write header in file
 fh.write('name,records,distance\n')
 # loop on all the participants
-for name, in object in participants.items():
-    # write line in file
-    fh.write(','.join([name], str(run), str(distance)))
-    #end for
+for name, object in participants.items():
+    # write line in file using csv method/object and print newline
+    fh.write(object.tocsv() + '\n')
 # close files
 fh.close()
 
