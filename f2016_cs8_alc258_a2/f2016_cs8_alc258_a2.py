@@ -13,7 +13,9 @@
 #some things to figure out how to make the program work
 #also was not able to test because I couldn't get the test files to work properly.
 #for some reason my program was not recognizing them
-
+#
+# MN: please do not use inline comments
+#
 # ...and now let's program with Python
 
 def main():                                                      # Creates the main function
@@ -61,7 +63,6 @@ def processFile(fh):                            # creates process file function 
     return (line_count, total_distance)         # return the two values, line count and total distance
 
 
-# MN: place comments at the beginning 
 def printKV(key, value, klen = 0):              # printKV: prints and formats key values
     if value == None:                           # print simple strings without value
         print(key)
@@ -79,7 +80,6 @@ def summary(totalLineCount, total_distance):                     #function for p
     printKV('Total distance run', total_distance)
 
 
-# MN: place comments at the beginning
 def main():                                                      # Creates the main function
     x=1
     while x != 0:
@@ -94,7 +94,7 @@ def main():                                                      # Creates the m
             fh=open(file, 'r')
             # MN: this following statement assumes that you have defined a function named "file"
             #total_distance,line_count=file(fh)
-            # MN: if call processFile this way, you are not passing in the file handle/object in
+            # MN: if you call processFile this way, you are not passing in the file handle/object
             #     and you do not collect the output from it
             #processFile()
             # MN: here how you should have called processFile
